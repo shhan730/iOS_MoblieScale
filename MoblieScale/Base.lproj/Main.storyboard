@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,62 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MoblieScale" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moblie Scale" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gnu-uZ-GX8">
+                                <rect key="frame" x="0.0" y="64" width="414" height="25.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="0.15686274509803921" green="0.34901960784313724" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 g" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5B-MR-IeJ">
+                                <rect key="frame" x="0.0" y="782" width="414" height="75"/>
+                                <fontDescription key="fontDescription" name="NotoNastaliqUrdu" family="Noto Nastaliq Urdu" pointSize="30"/>
+                                <color key="textColor" red="0.15686274509803921" green="0.34901960784313724" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gg4-JL-JXo">
+                                <rect key="frame" x="50" y="189.5" width="314" height="492.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2M3-6Y-pbu">
+                                        <rect key="frame" x="30" y="30" width="254" height="432.5"/>
+                                        <color key="backgroundColor" red="0.46666666666666667" green="0.68627450980392157" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.5490196078431373" green="0.84313725490196079" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="2M3-6Y-pbu" firstAttribute="top" secondItem="Gg4-JL-JXo" secondAttribute="top" constant="30" id="8HO-Bf-e5l"/>
+                                    <constraint firstAttribute="trailing" secondItem="2M3-6Y-pbu" secondAttribute="trailing" constant="30" id="KCX-4r-ccx"/>
+                                    <constraint firstAttribute="bottom" secondItem="2M3-6Y-pbu" secondAttribute="bottom" constant="30" id="LAi-i3-YB2"/>
+                                    <constraint firstItem="2M3-6Y-pbu" firstAttribute="leading" secondItem="Gg4-JL-JXo" secondAttribute="leading" constant="30" id="ZVx-IO-bHQ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84313725490196079" green="1" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gnu-uZ-GX8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0zb-GN-Euc"/>
+                            <constraint firstItem="Gnu-uZ-GX8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="QkJ-VW-GNG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P5B-MR-IeJ" secondAttribute="trailing" id="RR6-DC-WNV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P5B-MR-IeJ" secondAttribute="bottom" constant="5" id="aeF-CH-HSy"/>
+                            <constraint firstItem="P5B-MR-IeJ" firstAttribute="top" secondItem="Gg4-JL-JXo" secondAttribute="bottom" constant="100" id="beS-3c-XX3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gg4-JL-JXo" secondAttribute="trailing" constant="50" id="dgW-WZ-A0A"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gnu-uZ-GX8" secondAttribute="trailing" id="j9A-wV-2N8"/>
+                            <constraint firstItem="P5B-MR-IeJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jV2-bB-20j"/>
+                            <constraint firstItem="Gg4-JL-JXo" firstAttribute="top" secondItem="Gnu-uZ-GX8" secondAttribute="bottom" constant="100" id="spb-3R-Nod"/>
+                            <constraint firstItem="Gg4-JL-JXo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="tpe-e4-X6U"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="forceLabel" destination="P5B-MR-IeJ" id="8uo-R8-I2f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
     </scenes>
 </document>
