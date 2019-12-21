@@ -33,6 +33,29 @@
 - iOS 8.0 or later
 - OS X v10.10 or later
 - iCloud–enabled provisioning profile
+- **This app is only available on iOS devices that support 3Dtouch.**
+
+
+
+**iOS Devices that Supports 3D Touch**
+
+iPhone 6S 
+
+iPhone 6S Plus 
+
+iPhone 7 
+
+iPhone 7 Plus 
+
+iPhone 8 
+
+iPhone 8 Plus 
+
+iPhone X 
+
+iPhone XS 
+
+iPhone XS Max
 
 
 
