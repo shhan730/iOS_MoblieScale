@@ -16,22 +16,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moblie Scale" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gnu-uZ-GX8">
-                                <rect key="frame" x="0.0" y="64" width="414" height="25.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="38.5"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="35"/>
                                 <color key="textColor" red="0.15686274509803921" green="0.34901960784313724" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 g" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5B-MR-IeJ">
-                                <rect key="frame" x="0.0" y="782" width="414" height="75"/>
-                                <fontDescription key="fontDescription" name="NotoNastaliqUrdu" family="Noto Nastaliq Urdu" pointSize="30"/>
+                                <rect key="frame" x="0.0" y="824" width="414" height="33"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <color key="textColor" red="0.15686274509803921" green="0.34901960784313724" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gg4-JL-JXo">
-                                <rect key="frame" x="50" y="189.5" width="314" height="492.5"/>
+                                <rect key="frame" x="50" y="182.5" width="314" height="541.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2M3-6Y-pbu">
-                                        <rect key="frame" x="30" y="30" width="254" height="432.5"/>
+                                        <rect key="frame" x="30" y="30" width="254" height="481.5"/>
                                         <color key="backgroundColor" red="0.46666666666666667" green="0.68627450980392157" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
                                 </subviews>
@@ -54,7 +54,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gg4-JL-JXo" secondAttribute="trailing" constant="50" id="dgW-WZ-A0A"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gnu-uZ-GX8" secondAttribute="trailing" id="j9A-wV-2N8"/>
                             <constraint firstItem="P5B-MR-IeJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jV2-bB-20j"/>
-                            <constraint firstItem="Gg4-JL-JXo" firstAttribute="top" secondItem="Gnu-uZ-GX8" secondAttribute="bottom" constant="100" id="spb-3R-Nod"/>
+                            <constraint firstItem="Gg4-JL-JXo" firstAttribute="top" secondItem="Gnu-uZ-GX8" secondAttribute="bottom" constant="80" id="spb-3R-Nod"/>
                             <constraint firstItem="Gg4-JL-JXo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="tpe-e4-X6U"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
