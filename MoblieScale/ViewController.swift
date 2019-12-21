@@ -32,7 +32,7 @@ class ViewController: UIViewController {
       // check if device is 3D Touch capable
       if traitCollection.forceTouchCapability == UIForceTouchCapability.available {
         if touch.force >= touch.maximumPossibleForce {
-          forceLabel.text = "385+ g"
+          forceLabel.text = "OVER 385g"
         } else {
           let force = touch.force / touch.maximumPossibleForce
           let grams = Int(force * 385)
